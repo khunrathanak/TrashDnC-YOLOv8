@@ -36,3 +36,13 @@ Or manually install YOLOv8:
 ```
 pip install ultralytics
 ```
+
+3. Inference with Trained Model
+Run inference on your own images:
+```
+yolo detect predict model=best.pt source=/path/to/your/images imgsz=416 conf=0.25
+```
+
+
+
+
