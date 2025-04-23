@@ -1,0 +1,5 @@
+path: C:/Users/tuypa/Desktop/TrashDnC
+train: images/train
+val: images/val
+nc: 6
+names: ['glass', 'metal', 'other', 'paper', 'plastic', 'unknown']
