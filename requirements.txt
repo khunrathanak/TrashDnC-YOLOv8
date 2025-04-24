@@ -1,9 +1,3 @@
-ultralytics==8.3.111
-opencv-python==4.11.0.86
-numpy==1.26.4
-matplotlib==3.10.0
-pillow==11.1.0
-pyyaml==6.0.2
-torch==2.5.1
-albumentations==2.0.5
 gradio
+ultralytics
+Pillow
