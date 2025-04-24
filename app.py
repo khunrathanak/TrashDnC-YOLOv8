@@ -25,4 +25,4 @@ with gr.Blocks() as demo:
     submit_btn.click(fn=detect_objects, inputs=image_input, outputs=output_image)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_port=10000, server_name="0.0.0.0")
